@@ -31,7 +31,7 @@
                 <artifactId>spotless-maven-plugin</artifactId>
                 <version>${spotless.version}</version>
                 <configuration>
-                    <ratchetFrom>origin/develop</ratchetFrom>
+                    <ratchetFrom>origin/main</ratchetFrom>
                     <java>
                         <!-- Cleanthat will refactor your code, but it may break your style: apply it before your formatter -->
                         <cleanthat/>
